@@ -95,6 +95,22 @@ public class MyArray<E> {
     }
 
     /**
+     * 获取最后一个元素
+     * @return
+     */
+    public E getLast() {
+       return get(size-1);
+    }
+
+    /**
+     * 获取第一个元素
+     * @return
+     */
+    public E getFirst(){
+        return get(0);
+    }
+
+    /**
      * 修改指定索引的元素
      *
      * @param index
