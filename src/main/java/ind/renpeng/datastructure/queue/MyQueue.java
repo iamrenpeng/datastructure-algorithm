@@ -1,4 +1,4 @@
-package ind.renpeng.datastructure.stack.ind.renpeng.datastructure;
+package ind.renpeng.datastructure.queue;
 
 public interface MyQueue<E> {
 
