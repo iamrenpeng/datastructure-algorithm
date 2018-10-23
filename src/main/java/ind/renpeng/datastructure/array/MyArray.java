@@ -165,7 +165,7 @@ public class MyArray<E> {
             data[i - 1] = data[i];
         }
         size--;
-        if(size==data.length/4||size>0){
+        if(size==data.length/4&&size>0){
             resize(data.length/2);
         }
         return ret;
